@@ -80,7 +80,7 @@ main {
     color: var(--gray-400);
 }
 
-.login input:hover.
+.login input:hover,
 .login input:focus {
     outline: 1px solid var(--purple);
 }
@@ -118,5 +118,22 @@ main {
 .login > p a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+
+@media(min-width: 1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+
+    }
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
 }
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
